@@ -1,0 +1,137 @@
+.title{
+    align-items: center;
+    background-color: var(--preto05);
+    margin: 0 auto;
+    padding: 2rem;
+    width: 80vw;
+}
+
+.title__div {
+    display: flex;
+    justify-content: space-between;
+}
+
+.title__bio {
+    font-size: 2rem;
+    font-weight: 700;
+    line-height: 3.8125rem;
+  
+    padding-top: 2%;   
+}
+
+.title__profile {
+    display: flex;
+    justify-content:end;
+}
+
+.title__subsection {
+    font-size: 1.5rem;
+    font-weight: 400;
+    line-height: 1.625rem;
+    padding-bottom: 2%;
+}
+
+
+
+.title__network {
+    align-items: flex-start;
+    display: flex;
+    gap: 2rem; 
+    padding-bottom: 2%;   
+}
+
+.title__network__item {
+    list-style: none;
+}
+
+.title__network--links {
+    align-items: flex-end;
+    color: var(--preto100);
+    display: flex;
+    font-size: 1.2rem;
+    font-weight: 500;
+    gap: 4px;
+    line-height: 1.17375rem;
+    text-decoration: none;
+}
+
+.title__network--links:hover {
+    text-decoration: underline;
+}
+
+
+
+/* tablet */
+@media screen and (max-width: 768px) {
+    .title {
+        margin: 0 auto;
+        width: auto;
+    }
+    
+    .title__div {
+        gap: .5rem;
+        width: 70%;
+    }
+    
+    .title__bio {
+        font-size: 1.375rem;
+        line-height: 1.625rem;
+    }
+    
+    .title__subsection {
+        font-size: 1rem;
+        line-height: 1.1875rem;
+    }
+    
+    .title__network--links {
+        font-size: 1rem;
+        line-height: 1.1875rem;
+    }
+    
+    .title__profile {
+        width: 150px;
+    }
+}
+
+/* Celular */
+@media screen and (max-width: 425px) {
+    .title {
+        padding: 1rem;
+    }
+    
+    .title__div {
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+        width: 100%;
+    }
+
+    .title .title__div {
+        gap: 1rem;
+        order: 1;
+        width: 100%;
+    }
+    
+    .title__subsection {
+        font-size: .875rem;
+        line-height: 1rem;
+    }
+    
+    .title__network {
+        justify-content: space-between;
+    }
+
+    .title__network--links {
+        font-size: .875rem;
+        line-height: 1rem;
+    }
+
+    .title__network--icon {
+        font-size: .875rem;
+    }
+    
+    .title__profile {
+        gap: 1rem;
+        width: 98px;
+    }
+}

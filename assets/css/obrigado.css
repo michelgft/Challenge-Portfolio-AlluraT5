@@ -1,0 +1,36 @@
+* {
+    border: 0;
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: rgb(230, 227, 227);
+    flex-direction: column;
+}
+
+.text {
+    font-size: 45px;
+    color:black;
+    margin-bottom: 30px;
+}
+
+.paragrafo {
+    color: black;
+    margin-bottom: 50px;
+}
+
+.btn {
+    padding: 15px 50px;
+    background: white;
+    text-decoration: none;
+    color:black;
+    font-size: 18px;
+    transition: all 0.5s;
+}
